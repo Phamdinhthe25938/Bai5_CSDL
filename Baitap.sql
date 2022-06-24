@@ -33,5 +33,5 @@ CALL findAllProduct();
    BEGIN
       insert into Product values(4,22,"banh mi",12,4,"ngon",1) ;
       END //
-Delimiter //;
+Delimiter ;
 CALL ADDsProduct();
